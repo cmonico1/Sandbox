@@ -96,17 +96,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700');
 
+body{
+  background-color: #fafafa;
 
+}
 
+.MainContent{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
 
+.HeroContent {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
 
+.HeroContent p{
+  font-size: 14px;
+}
 
+.HeroContent h1{
+  font-size: 40px;
+  color: #3e3e3e;
+}
+.boldme{
+  font-weight: 700;
+}
 
-
-
-
-
+.italicizeme{
+  font-weight: 400i;
+  font-style: italic;
+}
 
 
 
@@ -199,8 +230,61 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 800px) {
     /* Style adjustments for viewports that meet the condition */
+  body{
+    background-color: #e3e3e3;
+  }
+
+  .HeroContent{
+    border: 6px solid #000;
+  }
+
+  .HeroContent h1 {
+    color: green;
+  }
+
+  .boldme{
+    color: blue;
+  }
+
+  .italicizeme{
+    color: pink;
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 600px) and (min-width: 400px) {
+    /* Style adjustments for viewports that meet the condition */
+  body{
+    background-color: #fafafa;
+  }
+
+  .HeroContent{
+    border: 1px solid gray;
+    padding: 25px;
+  }
+
+  .HeroContent h1 {
+    color: #e38f2a;
+  }
+
+  .HeroContent p{
+    line-height: 20px;
+    padding: 2%;
+  }
+
+  .boldme{
+    color: grey;
+    font-size: 25px;
+  }
+
+  .italicizeme{
+    color: blue;
+    font-size: 8px;
+  }
+
 }
 
 @media print,
