@@ -15,25 +15,66 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="concrete_overlay">
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <!-- Add your site or application content here -->
-<section class="MainContent">
+  <!-- Add your site or application content here --> <!-- This layout is considered semantic and allows the browser to make sense of the code-->
+<header>
+  <img src="img/afilogo.png" alt="A Fire Inside Logo" class="header_logo">
+</header>
 
-  <div class="HeroContent">
-    <div class="CoolBox"></div>
-    <div class="CoolBox"></div>
-    <div class="CoolBox"></div>
-    <div class="CoolBox"></div>
-    <div class="CoolBox"></div>
-    <div class="CoolBox"></div>
-  </div>
-
+<section class="HeroSection">
 </section>
 
+<section class="Concert_Details">
+  <div class="Lineup">
+    <h1>afireinside</h1>
+    <p>with special guests</p>
+    <h2>Circa Survive</h2>
+    <h2>Don’t Sleep</h2>
+  </div>
+
+  <div class="Concert_Dates">
+    <div class="Dates">
+      <ul>
+        <li>2/22 - Anahiem CA</li>
+        <li>2/23 - Los Angeles CA</li>
+        <li>2/24 - San Francisco CA</li>
+        <li>2/26 - Portland OR</li>
+        <li>2/27 - Seattle WA</li>
+      </ul>
+    </div>
+
+    <div class="Dates">
+      <ul>
+        <li>3/8 - Chicago IL</li>
+        <li>3/9 - Detroit MI</li>
+        <li>3/11 - Columbus OH</li>
+        <li>3/12 - Cincinnati OH</li>
+        <li>3/14 - Pittsburgh PA</li>
+      </ul>
+    </div>
+
+    <div class="Dates">
+      <ul>
+        <li>3/16 - Washington DC</li>
+        <li>3/17 - Baltimore MD</li>
+        <li>3/19 - Philadelphia PA</li>
+        <li>3/20 - Sayreville NJ</li>
+        <li>3/22 - New York NY</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="Tickets">
+    <a href="https://ticketmaster.com" title="Ticketmaster"> <!--Screen readers need a title for accessibility-->
+      <button>Get Tickets</button>
+    </a>
+  </div>
+  
+</section>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

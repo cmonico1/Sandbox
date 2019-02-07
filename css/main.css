@@ -10,6 +10,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
 html {
     color: #222;
     font-size: 1em;
@@ -96,24 +98,143 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.MainContent{
-  width: 100%;
-  height: 100%;
-  position: relative;
+/*display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+^ These four lines center content */
+
+
+/* Global Body Styles*/
+body{
+  background-color: #585752;
+  font-family: 'Roboto', sans-serif;
 }
 
-.HeroContent{
+.concrete_overlay{
+  background-image: url('../img/Textured_Background.png');
+  background-repeat: repeat;
+}
+
+/* Header Section */
+header {
+  background-color: #585752;
+  width: 100%;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  /* ^ These four lines center content ^*/
 }
 
-.CoolBox {
+.header_logo{
+  width: 62.7px;
+  height: auto;
+}
+
+/*Hero Section*/
+.HeroSection {
+  width: 100%;
+  height: 720px;
+  background-image: url('../img/AFI_hero.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/*Concert Details Section*/
+.Concert_Details{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.Lineup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.Lineup h1{
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.Lineup p{
+  font-size: 36px;
+  font-weight: 400;
 
 }
 
+.Lineup h2{
+  font-size: 74px;
+  font-weight: 700;
+  margin: 0 0 25px 0;
+}
+
+.Concert_Dates{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px;
+  color: #fff;
+}
+
+.Dates{
+  margin: 20px;
+  font-weight: 500;
+}
+
+.Dates ul{
+  list-style: none;
+}
+
+.Dates ul li{
+  padding: 3px; /*Use line height for paragraphs use padding to fake line height for lists*/
+  font-size: 24px;
+}
+
+/*Tickets*/
+
+.Tickets{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.Tickets button{
+  width: 230px;
+  height: 61px;
+  border: 3px solid #fff;
+  border-radius: 35px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Tickets button:hover{
+  border: 3px solid #F89500;
+  color: #F89500;
+}
+
+.Tickets a{
+  font-weight:900;
+  font-size: 30px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -201,71 +322,30 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media (max-width: 1440px) and (min-width: 769px) {
+@media screen and (max-width: 1280px) {
     /* Style adjustments for viewports that meet the condition */
-    .HeroContent {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-      /* ^ These four lines center content ^ */
-      flex-wrap: wrap;
-      flex-direction: row;
-      width: 100%;
+  header {
+    height: 100px;
+  }
 
-    }
-
-    .CoolBox {
-      width: 475px;
-      height: 350px;
-      background-color: #466981;
-      margin: 52px 93px 52px 93px;
-    }
+  .header_logo{
+    width: 80px;
+    height: auto;
+  }
 }
 
-@media (max-width: 768px) and (min-width: 376px) {
+@media screen and (max-width: 1024px) {
     /* Style adjustments for viewports that meet the condition */
-    .HeroContent {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-      /* ^ These four lines center content ^ */
-      flex-wrap: wrap;
-      flex-direction: row;
-      width: 100%;
-
-    }
-
-    .CoolBox {
-      width: 185px;
-      height: 190px;
-      background-color: #DA4A4A;
-      margin: 32px;
-    }
 
 }
 
-@media (max-width: 375px) and (min-width: 0px) {
+@media screen and (max-width: 768px) {
     /* Style adjustments for viewports that meet the condition */
 
-    .HeroContent {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0 auto;
-      /* ^ These four lines center content ^ */
-      flex-direction: column;
-      width: 80%;
+}
 
-    }
-
-    .CoolBox {
-      width: 228px;
-      height: 190px;
-      background-color: #4DB199;
-      margin: 54px;
-    }
+@media screen and (max-width: 360px) {
+    /* Style adjustments for viewports that meet the condition */
 
 }
 
