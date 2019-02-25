@@ -1,20 +1,3 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @YCPTimMcKenna Sign out
-0
-0 0 YCPTimMcKenna/Sandbox
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
-Sandbox/css/main.css
-d98a504  an hour ago
-@YCPTimMcKenna YCPTimMcKenna Final Show Poster
-
-519 lines (408 sloc)  9.22 KB
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -253,12 +236,54 @@ header{
   font-size: 30px;
 }
 
+/* About Page Styles */
+.About{
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
 
+.About p{
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
 
+.About h1{
+  font-size: 36px;
+  line-height: 20px;
+  font-weight: 700;
+}
 
+.About h2{
+  font-size: 30px;
+  line-height: 18px;
+  font-weight: 500;
+  margin-top: -5px;
+}
 
+.About ol li{
+  font-size: 14px;
+  line-height: 26px;
+  font-style: italic;
+}
 
+.About blockquote{
+  font-size: 28px;
+  line-height: 32px;
+  font-style: italic;
+  padding-left: 20px;
+  opacity: .5;
+}
 
+.About a{
+  color: #F89500;
+  text-decoration: none;
+}
 
 
 
@@ -533,16 +558,3 @@ header{
         page-break-after: avoid;
     }
 }
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Press h to open a hovercard with more details.
