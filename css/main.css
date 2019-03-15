@@ -217,6 +217,7 @@ header{
 .Tickets button{
   width: 230px;
   height: 60px;
+  font-size: 30px;
   border: 3px solid #fff;
   border-radius: 35px;
   background-color: rgba(0,0,0,0);
@@ -230,12 +231,95 @@ header{
   color: #F89500;
 }
 
-.Tickets a{
+.button_panel{
+  display: none;
+  width: 25%;
+  height: 100px;
   color: #fff;
   font-weight: 900;
   font-size: 30px;
+  background-color: grey;
+  border-radius: 25px;
 }
 
+.button_panel a{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.stop_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 250px;
+  height: 50px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 30px;
+  background-color: #F89500;
+  border-radius: 25px;
+}
+
+.stop_button:hover{
+  background-color: black;
+}
+
+.Tickets_slow{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.Tickets_slow button{
+  width: 230px;
+  height: 60px;
+  font-size: 30px;
+  border: 3px solid #fff;
+  border-radius: 35px;
+  background-color: rgba(0,0,0,0);
+  margin: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Tickets_slow button:hover{
+  border: 3px solid #F89500;
+  color: #F89500;
+}
+
+.button_panel_slow{
+  width: 25%;
+  height: 100px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 30px;
+  background-color: grey;
+  border-radius: 25px;
+}
+
+.button_panel_slow a{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 /* About Page Styles */
 .About{
   font-family: 'Roboto', sans-serif;
