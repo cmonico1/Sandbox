@@ -255,6 +255,7 @@ header{
   margin: 0 auto;
 }
 
+/* Jquery Tests */
 .stop_button{
   display: flex;
   justify-content: center;
@@ -320,6 +321,19 @@ header{
   align-items: center;
   margin: 0 auto;
 }
+
+#get_text_button{
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  background-color: orange;
+  border-color: orange;
+}
+/* Jquery Tests End*/
+
 /* About Page Styles */
 .About{
   font-family: 'Roboto', sans-serif;
