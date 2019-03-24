@@ -329,8 +329,88 @@ header{
   justify-content: center;
   align-items: center;
   margin: 20px auto;
+  color: white;
   background-color: orange;
   border-color: orange;
+}
+.set_attributes{
+  width: 200px;
+  height: auto;
+  background-color: orange;
+  text-decoration: none;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+
+.append_tut {
+  width: 400px;
+  height: auto;
+  color: white;
+  background-color: orange;
+  text-decoration: none;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+}
+
+#multiappend{
+  width:400px;
+  height: auto;
+  color: white;
+  background-color: orange;
+  text-decoration: none;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 20px 0;
+  padding: 0 0 20px 0;
+}
+
+#multiappend_outer{
+  width:400px;
+  height: auto;
+  color: black;
+  background-color: #F89500;
+  text-decoration: none;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+}
+
+.remove_multi_div{
+  width: 400px;
+  height:auto;
+  background-color: orange;
+  margin: 20px auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue{
+  color: blue;
+}
+
+.width_height_display{
+  width: 200px;
+  Height: 200px;
+  background-color: #F89500;
+  margin: 20px auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
 }
 /* Jquery Tests End*/
 
