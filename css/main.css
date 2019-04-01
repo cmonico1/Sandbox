@@ -414,6 +414,36 @@ header{
 }
 /* Jquery Tests End*/
 
+/*Modal*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* About Page Styles */
 .About{
   font-family: 'Roboto', sans-serif;
@@ -462,13 +492,6 @@ header{
   color: #F89500;
   text-decoration: none;
 }
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
